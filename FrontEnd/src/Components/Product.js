@@ -17,7 +17,7 @@ export default function Product() {
         <div className='cards'>
              <div className='prodbg'>
                     <img className='imghbg' src={pic}></img>
-                    <h1>Post Page</h1>
+                    <h1>Product Page</h1>
                 </div>
             <div className='grid-items'>
                
