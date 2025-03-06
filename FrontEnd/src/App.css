@@ -1,0 +1,437 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/*creative project*/
+
+body{
+  font-family: Helvetica ,sans-serif ;
+  font-weight: 400px;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  position:sticky;
+  z-index: 2;
+  top: 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.heading:hover {
+  text-shadow: #a8a8b4b9 1px 0 10px;
+}
+.nav-links{
+  display: flex;
+  color: aliceblue;
+  gap:5px;
+}
+.nav-links a {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+  font-size: 17px;
+}
+.imghbg{
+  width: 100%;
+  height: 680px;
+}
+.home h1{
+  transform: translateY(-500px);
+  font-size:70px;
+  color: #3b3737;
+  text-shadow: #a8a8b4b9 1px 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.home2 h2,h5{
+  padding: 0;
+  text-align: left;
+  font-weight:bold;
+}
+.home2{
+  padding: 0 450px;
+  padding-bottom: 150px;
+  font-family:Roboto Mono,Helvetica Neue,sans-serif;
+}
+ .home2 p{
+  padding: 5px;
+  text-align: left;
+  gap: 5px;
+  font-weight: 400;
+ 
+  }
+  .home3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 130px;
+    gap: 20px;
+  }
+  .div1{
+    text-align: center;
+    width: 200px;
+  }
+  .home4{
+    background-color: rgb(231, 228, 228);
+    padding: 70px;
+    text-align: center;
+    margin: 0;
+  }
+.lists{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+  gap: 70px;
+  font-family:Roboto Mono,Helvetica Neue,sans-serif;
+}
+.price1,.price2,.price3{
+  padding: 5px;
+  text-align: center;
+  /* gap: 5px; */
+  font-weight: 100;
+  background-color:rgb(207, 233, 224);
+  width: 300px;
+  height: 470px;
+}
+.price1 h5,.price2 h5,.price3 h5{
+  text-align: center;
+}
+.home5{
+  margin:  100px 150px;
+  padding: 0;
+}
+.works{
+  display: grid;
+  grid-template:repeat(3,1fr)/repeat(3,1fr);
+  gap: 50px;
+  padding: 100px 150px;
+}
+.work1{
+  background-image: url(https://c0.wallpaperflare.com/preview/914/309/122/black-desk-lamp-on-brown-wooden-table.jpg);
+  background-size: cover;
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.work2{
+  background-image: url(https://th.bing.com/th/id/OIP.IOziOQyPKkIMVh5EhtL6IQHaFe?rs=1&pid=ImgDetMain);
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.work3{
+  background-image: url(https://th.bing.com/th/id/OIP.piQXxRcxdXJle3KsyFcWDQHaEo?rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-column:3/4; */
+}
+.work4{
+  background-image: url(https://t4.ftcdn.net/jpg/05/25/50/77/360_F_525507787_108QaJ8bCAkvH3TK4fouQc5ouIAkmqbE.jpg);
+  background-size: cover;
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:2/2; */
+}
+.work5{
+  background-image: url(https://th.bing.com/th/id/OIP.piQXxRcxdXJle3KsyFcWDQHaEo?rs=1&pid=ImgDetMain);
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.work6{
+  background-image: url(https://www.shutterstock.com/image-photo/office-desk-supplies-photo-camera-600nw-1936024189.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: grid; */
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:2/7; */
+}
+.work7{
+  background-image: url(https://th.bing.com/th/id/OIP.EJkdE6zLB9Zp2RivjXVezgHaEK?rs=1&pid=ImgDetMain);
+  display: grid;
+  width: 300px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.work8{
+  background-image: url(https://th.bing.com/th/id/OIP.piQXxRcxdXJle3KsyFcWDQHaEo?rs=1&pid=ImgDetMain);
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.work9{
+  background-image: url(https://img.freepik.com/premium-photo/copy-space-white-workspace-with-stationery-camera-coffee-cup-decor-top-view_67155-18520.jpg);
+  display: grid;
+  width: 350px;
+  height: 250px;
+  /* align-self:stretch; */
+  /* grid-row:3/2; */
+}
+.form,.a{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 580px;
+  padding: 60px 100px;
+  gap: 50px;
+  border-radius: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #3b373700;
+
+}
+.login{
+  background-image: url(https://img.freepik.com/premium-photo/modern-living-room-with-wood-floor-white-wall_43151-15.jpg?w=740);
+  /* background-image: url(https://img.freepik.com/premium-photo/interior-has-armchair-empty-dark-blue-wall_41470-1412.jpg?w=826); */
+  background-repeat: no-repeat;
+  background-size:stretch;
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 100px 0;
+  background-position-x: center;
+  background-position-y: center;
+  /* background-color:#546575; */
+  background-color: #d8d7d7;
+  /* background:linear-gradient(rgba(163, 160, 160, 0.089),rgba(68, 66, 66, 0.24)); */
+}
+.signup{
+  /* background-image: url(https://img.freepik.com/premium-photo/interior-has-armchair-empty-dark-blue-wall_41470-1412.jpg?w=826); */
+  background-image: url(https://img.freepik.com/premium-photo/modern-living-room-with-wood-floor-white-wall_43151-15.jpg?w=740);
+  background-repeat: no-repeat;
+  background-size:stretch;
+  /* border:0px solid gray; */
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 100px 0;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: #d8d7d7;
+  /* background-color:#546575; */
+  /* background-color:linear-gradient(#98a2b1,#a8a8b4b9); */
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  background-color: #3b3737b9;
+  border-radius: 10px;
+  color: white;
+  justify-content: center;
+  margin-left: 60px;
+}
+input{
+  width: 200px;
+  height: 25px;
+  background-color: #cccacab9;
+  border-radius: 10px;
+
+}
+.service1 h1{
+  transform: translateY(-500px);
+  font-size:70px;
+  color: #3b3737;
+  text-shadow: #a8a8b4b9 1px 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.service2{
+  display: grid;
+  grid-template: repeat(2,200px)/repeat(4,200px);
+  /* grid-template:repeat(2,1fr)/repeat(4.1fr); */
+  place-content: space-evenly;
+  padding: 10px;
+  gap: 20px;
+}
+.services3{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 50px;
+}
+.details{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* padding: 10px 0; */
+}
+form1{
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  padding: 10px 130px;
+  /* text-align: center; */
+}
+.form1 h1{
+  text-align: center;
+  /* background-color: #3b3737b9; */
+}
+.form1{
+  text-align: center;
+  background-color: #3b3737b9;
+  margin: 0px 550px;
+}
+/* CreativeFooter.css */
+
+.footer {
+  background: linear-gradient(to right, #3c3b3d, #8d8d8f);
+  color: white;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  margin-bottom: 1.5rem;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-input {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+  color: black;
+}
+
+.footer-button {
+  background-color: white;
+  color: #3f51b5;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background-color: #e0e0e0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+.grid-items{
+  display: flex;
+  gap: 50px;
+  margin: 0px;
+  padding: 150px;
+  background: linear-gradient(to right, #b5b5b6, #8d8d8f);
+}
+.overlay1{
+  padding: 50px;
+  width: 500px;
+  text-align: left;
+  background-color: #dddbdb88;
+}
+.prodbg h1{
+  transform: translateY(-450px);
+  font-size:70px;
+  color: #3b3737;
+  text-shadow: #a8a8b4b9 1px 0 10px;
+  display: flex;
+  justify-content: center;
+}
